@@ -1,0 +1,29 @@
+//Para el estilo del nav
+@import "../base/variables";
+
+nav{
+    div{
+        .nav__ul--separacion{
+            display: flex;
+            justify-content: flex-end;
+            ul{
+                li{
+                    a:hover{
+                        color:$color-section;
+                    }
+                    //Para la sublista
+                    .nav__ul-sub-lista{
+                        background-color: $color-nav-mobil;
+                        li{
+                            a{
+                                background-color: $color-nav-mobil;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    font-size: $tamaño-text-nav;
+    background-color: $color-nav-aside;
+}

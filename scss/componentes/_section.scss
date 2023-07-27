@@ -1,0 +1,109 @@
+//Para el estilo del section
+@import "../base/variables";
+
+//Para el main principal, que esta en el index.html
+main{
+    section{
+        width: 80%;
+        background-color: $color-section;
+        padding-bottom: 2.5em;
+        .section__titulo{
+            margin-top: 1.5em;
+            text-align: center;
+            h2{
+                font-size: $tamaño-titulos;
+            }
+        }
+        .section__article-container{
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            column-gap: 1.25em;
+            row-gap: 5em;
+            justify-items: center;
+            padding: 2em;
+            .section__article-item{
+                h3{
+                    text-align: center;
+                    font-size: $tamaño-texto;
+                    margin-top: 0.5em;
+                }
+                border: 3px solid black;
+                .section__article-img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+//Para la clase main, esta en el resto de los documentos html
+.main{
+    section{
+        width: 80%;
+        background-color: $color-section;
+        padding-bottom: 4em;
+        //Para la clase que esta en contacto.html
+        .section__formulario{
+            margin: 1.5em;
+            div{
+                h3{
+                    font-size: $tamaño-sub-titulos;
+                    margin-bottom: 1em;
+                }
+            }
+        }
+        //Esta clase esta en nosotros.html
+        .section__nosotros{
+            margin: 1.5em;
+            h2{
+                font-size: $tamaño-sub-titulos;
+            }
+            p{
+                margin-top: 2em;
+                font-size: $tamaño-texto;
+                text-align: left;
+            }
+        }
+        //Para el estilo en productos.html y promocion.html
+        .section__titulo{
+            margin-top: 1.5em;
+            text-align: center;
+            h2{
+                font-size: $tamaño-titulos;
+            }
+        }
+        .section__article-container{
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            column-gap: 1.25em;
+            row-gap: 5em;
+            justify-items: center;
+            padding: 2em;
+            .section__article-item{
+                border: 3px solid black;
+                margin-bottom: 1.5em;
+                h3{
+                    text-align: center;
+                    font-size: $tamaño-texto;
+                    margin-top: 0.5em;
+                }
+                p{
+                    text-align: left;
+                    font-size: $tamaño-texto;
+                    margin-top: 0.5em;
+                    span{
+                        display: block;
+                        text-align: left;
+                        font-size: $tamaño-precio;
+                        font-weight: bold;
+                    }
+                }
+                .section__article-img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

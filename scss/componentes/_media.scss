@@ -1,0 +1,80 @@
+//Para los breakpoints
+@import "../base/variables";
+
+@media (max-width: $mobil-max){
+    nav{
+        div{
+            .nav__ul--separacion{
+                width: 100%;
+                display: flex;
+                flex-direction: row-reverse;
+                border-top: 2px solid black;
+                background-color: $color-header;
+            }
+        }
+    }
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        aside{
+            width: 100%;
+            padding-bottom: 1.5em;
+            display: flex;
+            flex-direction: column;
+            .aside__container{
+                width: 100%;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                article{
+                    margin: 0 0.5em;
+                }
+            }
+        }
+        section{
+            width: 100%;
+            padding-bottom: 1.5em;
+            .section__article-container{
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+                column-gap: 1.25em;
+                row-gap: 5em;
+            }
+        }
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    //Para la clase main y hacer responsive el resto de documentos
+    .main{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        aside{
+            width: 100%;
+            padding-bottom: 1.5em;
+            display: flex;
+            flex-direction: column;
+            .aside__container{
+                width: 100%;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                article{
+                    margin: 0 0.5em;
+                }
+            }
+        }
+        section{
+            width: 100%;
+            .section__article-container{
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+                column-gap: 1.25em;
+                row-gap: 5em;
+            }
+        }
+    }
+}

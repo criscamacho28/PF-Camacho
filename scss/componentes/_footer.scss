@@ -1,0 +1,22 @@
+//Para el estilo del pie de pagina
+@import "../base/variables";
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  
+    color: #FFFFFF;
+    background-color: $color-footer;
+    div{
+        margin: 2em 1em;
+        padding: 0px 1em;
+        border-right: 2px solid #a3abc2;
+        border-left: 2px solid #a3abc2;
+        h3{
+            font-size: $tamaño-sub-titulos;
+        }
+        p{
+            font-size: $tamaño-texto;
+        }
+    }
+}

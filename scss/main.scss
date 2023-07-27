@@ -1,0 +1,27 @@
+/*Para el reseto CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+//LLamo a otras hojas de estilo de .scss
+
+//Para las variables
+@import "base/variables";
+
+//Para cada seccion del documento
+
+/*Para el estilo del nav*/
+@import "componentes/nav";
+/*Para el estilo del header*/
+@import "componentes/header";
+/*Para el estilo del aside*/
+@import "componentes/aside";
+/*Para el estilo del section*/
+@import "componentes/section";
+/*Para el estilo del footer*/
+@import "componentes/footer";
+
+/*Para el estilo del MEdia Queries*/
+@import "componentes/media";

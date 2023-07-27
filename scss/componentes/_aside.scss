@@ -1,0 +1,63 @@
+//Para el estilo del aside
+@import "../base/variables";
+
+main{
+    display: flex;
+    flex-direction: row;
+    aside{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        background-color: $color-nav-aside;
+        text-align: center;
+        .aside__sub-titulo{
+            h2{      
+                font-size: $tamaño-sub-titulos;
+            }
+            margin-top: 0.5em;
+        }
+        .aside__container{
+            margin: 0 1.5em;
+            article{
+                margin: 1em 0;
+            }
+            .aside__promocion-img{
+                height: 100%;
+                width: 100%;
+                border: 2px solid #000000;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+//Para la clase main
+.main{
+    display: flex;
+    flex-direction: row;
+    aside{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        background-color: $color-nav-aside;
+        text-align: center;
+        .aside__sub-titulo{
+            h2{
+                
+                font-size: $tamaño-sub-titulos;
+            }
+            margin-top: 0.5em;
+        }
+        .aside__container{
+            margin: 0 1.5em;
+            article{
+                margin: 1em 0;
+            }
+            .aside__promocion-img{
+                height: 100%;
+                width: 100%;
+                border: 2px solid #000000;
+                border-radius: 5px;
+            }
+        }
+    }
+}

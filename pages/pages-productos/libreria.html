@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria</title>
+
+    <!--Para los metas-->
+    <meta name="description" content="Encuentra Todo para tus Fiestas en Nuestro Cotillón, Entra y Descubre Nuestras Secciones Especiales">
+    <meta name="keywords" content="Cotillon, Fiestas, Decoracion, Accesorios, Articulos festivos, Disfraces">
+
+    <!--Para el icono-->
+    <link rel="short icon" href="../../img/logo.png">
+
+    <!--Tipografia-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+ 
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+ 
+    <!--Para vincular con CSS-->
+    <!--Estoy linkeando con el Archivo main.css de la carpeta SCSS-->
+    <link rel="stylesheet" href="../../scss/main.css">
+
+</head>
+<body>
+    <!--Para la barra de navegacion-->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <!--Para el Icono-->
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../img/logo.png" alt="icono" width="60px" height="60px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Para el resto del menu de enlaces-->
+            <div class="collapse navbar-collapse nav__ul--separacion" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../promocion.html">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../roductos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <!--Para la sub lista-->
+                        <ul class="dropdown-menu nav__ul-sub-lista">
+                            <li><a class="dropdown-item" href="bazar-descartables.html">Bazar y Descartables</a></li>
+                            <li><a class="dropdown-item" href="deco-fiestas.html">Decoracion y Fiestas</a></li>
+                            <li><a class="dropdown-item" href="disfreces.html">Disfraces</a></li>
+                            <li><a class="dropdown-item" href="gol-snacks.html">Golosinas y Snacks</a></li>
+                            <li><a class="dropdown-item" href="libreria.html">Libreria</a></li>
+                            <li><a class="dropdown-item" href="repo.html">Reposteria</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--En este header va el "Carrousel" de Bootstrap-->
+    <header id="carouselExample" class="carousel slide">
+        <div class="carousel-inner header__carousel">
+            <div class="carousel-item active">
+                <img src="../../img/carrousel-1.png" class="d-block w-100" alt="Promocion">
+            </div>
+            <div class="carousel-item">
+                <img src="../../img/carrousel-2.png" class="d-block w-100" alt="Promocion">
+            </div>
+            <div class="carousel-item">
+                <img src="../../img/carrousel-3.png" class="d-block w-100" alt="Promocion">
+            </div>
+            <div class="carousel-item">
+                <img src="../../img/carrousel-4.png" class="d-block w-100" alt="Promocion">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </header>
+
+    <!--Para la parte principal-->
+    <div class="main">
+        <!--Para la estructura del aside, que se ubicara en la izquierda-->
+        <aside>
+            <div class="aside__sub-titulo">
+                <h2>Promociones</h2>
+            </div>
+            <div class="aside__container">
+                <article>
+                    <img class="aside__promocion-img" src="../../img/prom-item-1.png" alt="Promocion">
+                </article>
+                <article>
+                    <img class="aside__promocion-img" src="../../img/prom-item-2.png" alt="Promocion">
+                </article>
+                <article>
+                    <img class="aside__promocion-img" src="../../img/prom-item-3.png" alt="Promocion">
+                </article>
+                <article>
+                    <img class="aside__promocion-img" src="../../img/prom-item-4.png" alt="Promocion">
+                </article>
+            </div>
+        </aside>
+
+        <!--Para el section, se ubicara a la derecha-->
+        <section>
+            <div class="section__titulo">
+                <h2>Libreria</h2>
+            </div>
+            <div class="section__article-container">
+                <article class="section__article-item">
+                    <a href="#">
+                        <img src="../../img/item-libro-1.png" alt="Producto" class="section__article-img">
+                    </a>
+                    <p>
+                        Nombre del producto
+                        <span>Precio</span>
+                    </p>
+                </article>
+                <article class="section__article-item">
+                    <a href="#">
+                        <img src="../../img/item-libro-2.png" alt="Producto" class="section__article-img">
+                    </a>
+                    <p>
+                        Nombre del producto
+                        <span>Precio</span>
+                    </p>
+                </article>
+                <article class="section__article-item">
+                    <a href="#">
+                        <img src="../../img/item-libro-3.png" alt="Producto" class="section__article-img">
+                    </a>
+                    <p>
+                        Nombre del producto
+                        <span>Precio</span>
+                    </p>
+                </article>
+                <article class="section__article-item">
+                    <a href="#">
+                        <img src="../../img/item-libro-4.png" alt="Producto" class="section__article-img">
+                    </a>
+                    <p>
+                        Nombre del producto
+                        <span>Precio</span>
+                    </p>
+                </article>
+                <article class="section__article-item">
+                    <a href="#">
+                        <img src="../../img/item-libro-5.png" alt="Producto" class="section__article-img">
+                    </a>
+                    <p>
+                        Nombre del producto
+                        <span>Precio</span>
+                    </p>
+                </article>
+                <article class="section__article-item">
+                    <a href="#">
+                        <img src="../../img/item-libro-6.png" alt="Producto" class="section__article-img">
+                    </a>
+                    <p>
+                        Nombre del producto
+                        <span>Precio</span>
+                    </p>
+                </article>
+            </div>
+        </section>
+    </div>
+
+    <!--Para el Pie de Pagina-->
+    <footer>
+        <div>
+            <h3>Direccion</h3>
+            <p>Montiel 123, Liniers, C.A.B.A. 1408</p>
+        </div>
+        <div>
+            <h3>Redes</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <p>ecomerce@gmail.com</p>
+        </div>
+        <div>
+            <h3>Telefono</h3>
+            <p>+54 11 2233 4466</p>
+        </div>
+    </footer>
+
+    <!--Para el Scrip de JavaScript de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
