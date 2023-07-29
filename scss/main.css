@@ -26,7 +26,7 @@ nav div .nav__ul--separacion ul li .nav__ul-sub-lista li a {
 
 /*Para el estilo del header*/
 header {
-  padding: 1.2em;
+  padding: 1.2rem;
   background-color: rgb(129, 133, 233);
 }
 header .header__carousel {
@@ -47,13 +47,13 @@ main aside {
   text-align: center;
 }
 main aside .aside__sub-titulo {
-  margin-top: 0.5em;
+  margin-top: 0.5rem;
 }
 main aside .aside__sub-titulo h2 {
   font-size: 1.5em;
 }
 main aside .aside__container {
-  margin: 0 1.5em;
+  margin: 0 1.5rem;
 }
 main aside .aside__container article {
   margin: 1em 0;
@@ -77,16 +77,16 @@ main aside .aside__container .aside__promocion-img {
   text-align: center;
 }
 .main aside .aside__sub-titulo {
-  margin-top: 0.5em;
+  margin-top: 0.5rem;
 }
 .main aside .aside__sub-titulo h2 {
   font-size: 1.5em;
 }
 .main aside .aside__container {
-  margin: 0 1.5em;
+  margin: 0 1.5rem;
 }
 .main aside .aside__container article {
-  margin: 1em 0;
+  margin: 1rem 0;
 }
 .main aside .aside__container .aside__promocion-img {
   height: 100%;
@@ -99,10 +99,10 @@ main aside .aside__container .aside__promocion-img {
 main section {
   width: 80%;
   background-color: rgb(170, 242, 228);
-  padding-bottom: 2.5em;
+  padding-bottom: 2.5rem;
 }
 main section .section__titulo {
-  margin-top: 1.5em;
+  margin-top: 1.5rem;
   text-align: center;
 }
 main section .section__titulo h2 {
@@ -111,19 +111,22 @@ main section .section__titulo h2 {
 main section .section__article-container {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  -moz-column-gap: 1.25em;
-       column-gap: 1.25em;
-  row-gap: 5em;
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+  row-gap: 5rem;
   justify-items: center;
-  padding: 2em;
+  padding: 2rem;
 }
 main section .section__article-container .section__article-item {
   border: 3px solid black;
 }
+main section .section__article-container .section__article-item h2 {
+  text-align: center;
+}
 main section .section__article-container .section__article-item h3 {
   text-align: center;
   font-size: 1.2em;
-  margin-top: 0.5em;
+  margin-top: 0.5rem;
 }
 main section .section__article-container .section__article-item .section__article-img {
   height: 100%;
@@ -133,28 +136,28 @@ main section .section__article-container .section__article-item .section__articl
 .main section {
   width: 80%;
   background-color: rgb(170, 242, 228);
-  padding-bottom: 4em;
+  padding-bottom: 5rem;
 }
 .main section .section__formulario {
-  margin: 1.5em;
+  margin: 1.5rem;
 }
 .main section .section__formulario div h3 {
   font-size: 1.5em;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 .main section .section__nosotros {
-  margin: 1.5em;
+  margin: 1.5rem;
 }
 .main section .section__nosotros h2 {
   font-size: 1.5em;
 }
 .main section .section__nosotros p {
-  margin-top: 2em;
+  margin-top: 2rem;
   font-size: 1.2em;
   text-align: left;
 }
 .main section .section__titulo {
-  margin-top: 1.5em;
+  margin-top: 1.5rem;
   text-align: center;
 }
 .main section .section__titulo h2 {
@@ -163,25 +166,25 @@ main section .section__article-container .section__article-item .section__articl
 .main section .section__article-container {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  -moz-column-gap: 1.25em;
-       column-gap: 1.25em;
-  row-gap: 5em;
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+  row-gap: 8rem;
   justify-items: center;
-  padding: 2em;
+  padding: 2rem;
 }
 .main section .section__article-container .section__article-item {
   border: 3px solid black;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 .main section .section__article-container .section__article-item h3 {
   text-align: center;
-  font-size: 1.2em;
-  margin-top: 0.5em;
+  font-size: 2em;
+  margin-top: 0.5rem;
 }
 .main section .section__article-container .section__article-item p {
   text-align: left;
   font-size: 1.2em;
-  margin-top: 0.5em;
+  margin-top: 0.5rem;
 }
 .main section .section__article-container .section__article-item p span {
   display: block;
@@ -202,8 +205,8 @@ footer {
   background-color: rgb(69, 69, 69);
 }
 footer div {
-  margin: 2em 1em;
-  padding: 0px 1em;
+  margin: 2rem 1rem;
+  padding: 0px 1rem;
   border-right: 2px solid #a3abc2;
   border-left: 2px solid #a3abc2;
 }
@@ -212,6 +215,17 @@ footer div h3 {
 }
 footer div p {
   font-size: 1.2em;
+}
+footer div ul {
+  padding: 0;
+}
+footer div ul li {
+  display: block;
+  font-size: 1.2em;
+  list-style: none;
+}
+footer div ul li a {
+  color: rgb(170, 242, 228);
 }
 
 /*Para el estilo del MEdia Queries*/
@@ -230,7 +244,7 @@ footer div p {
   }
   main aside {
     width: 100%;
-    padding-bottom: 1.5em;
+    padding-bottom: 1.5rem;
     display: flex;
     flex-direction: column;
   }
@@ -241,11 +255,11 @@ footer div p {
     flex-direction: row;
   }
   main aside .aside__container article {
-    margin: 0 0.5em;
+    margin: 0 0.5rem;
   }
   main section {
     width: 100%;
-    padding-bottom: 1.5em;
+    padding-bottom: 1.5rem;
   }
   main section .section__article-container {
     display: grid;
@@ -284,8 +298,8 @@ footer div p {
   .main section .section__article-container {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    -moz-column-gap: 1.25em;
-         column-gap: 1.25em;
-    row-gap: 5em;
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
+    row-gap: 8rem;
   }
 }/*# sourceMappingURL=main.css.map */

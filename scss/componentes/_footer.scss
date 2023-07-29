@@ -8,8 +8,8 @@ footer{
     color: #FFFFFF;
     background-color: $color-footer;
     div{
-        margin: 2em 1em;
-        padding: 0px 1em;
+        margin: 2rem 1rem;
+        padding: 0px 1rem;
         border-right: 2px solid #a3abc2;
         border-left: 2px solid #a3abc2;
         h3{
@@ -17,6 +17,18 @@ footer{
         }
         p{
             font-size: $tamaño-texto;
+        }
+        //Para Redes
+        ul{
+            padding: 0;
+            li{
+                display: block;
+                font-size: $tamaño-texto;
+                list-style: none;
+                a{
+                    color: $color-section;
+                }
+            }
         }
     }
 }

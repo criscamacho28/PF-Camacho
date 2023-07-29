@@ -6,9 +6,9 @@ main{
     section{
         width: 80%;
         background-color: $color-section;
-        padding-bottom: 2.5em;
+        padding-bottom: 2.5rem;
         .section__titulo{
-            margin-top: 1.5em;
+            margin-top: 1.5rem;
             text-align: center;
             h2{
                 font-size: $tamaño-titulos;
@@ -17,15 +17,18 @@ main{
         .section__article-container{
             display: grid;
             grid-template-columns: repeat(3, auto);
-            column-gap: 1.25em;
-            row-gap: 5em;
+            column-gap: 1.25rem;
+            row-gap: 5rem;
             justify-items: center;
-            padding: 2em;
+            padding: 2rem;
             .section__article-item{
+                h2{
+                    text-align: center;
+                }
                 h3{
                     text-align: center;
                     font-size: $tamaño-texto;
-                    margin-top: 0.5em;
+                    margin-top: 0.5rem;
                 }
                 border: 3px solid black;
                 .section__article-img{
@@ -42,32 +45,32 @@ main{
     section{
         width: 80%;
         background-color: $color-section;
-        padding-bottom: 4em;
+        padding-bottom: 5rem;
         //Para la clase que esta en contacto.html
         .section__formulario{
-            margin: 1.5em;
+            margin: 1.5rem;
             div{
                 h3{
                     font-size: $tamaño-sub-titulos;
-                    margin-bottom: 1em;
+                    margin-bottom: 1rem;
                 }
             }
         }
         //Esta clase esta en nosotros.html
         .section__nosotros{
-            margin: 1.5em;
+            margin: 1.5rem;
             h2{
                 font-size: $tamaño-sub-titulos;
             }
             p{
-                margin-top: 2em;
+                margin-top: 2rem;
                 font-size: $tamaño-texto;
                 text-align: left;
             }
         }
         //Para el estilo en productos.html y promocion.html
         .section__titulo{
-            margin-top: 1.5em;
+            margin-top: 1.5rem;
             text-align: center;
             h2{
                 font-size: $tamaño-titulos;
@@ -76,22 +79,22 @@ main{
         .section__article-container{
             display: grid;
             grid-template-columns: repeat(3, auto);
-            column-gap: 1.25em;
-            row-gap: 5em;
+            column-gap: 1.25rem;
+            row-gap: 8rem;
             justify-items: center;
-            padding: 2em;
+            padding: 2rem;
             .section__article-item{
                 border: 3px solid black;
-                margin-bottom: 1.5em;
+                margin-bottom: 1.5rem;
                 h3{
                     text-align: center;
-                    font-size: $tamaño-texto;
-                    margin-top: 0.5em;
+                    font-size: $tamaño-titulos;
+                    margin-top: 0.5rem;
                 }
                 p{
                     text-align: left;
                     font-size: $tamaño-texto;
-                    margin-top: 0.5em;
+                    margin-top: 0.5rem;
                     span{
                         display: block;
                         text-align: left;
